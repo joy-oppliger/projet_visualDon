@@ -15,8 +15,11 @@ var chart = bb.generate({
       animations: entree_genre.map(({Animations}) => Animations),
       documentaires: entree_genre.map(({Documentaires}) => Documentaires)
     },
-    "type": "bar",
-    labels: true
+    "type": "bubble",
+    //labels: true
+  },
+  bubble: {
+    maxR: 80
   },
   "title": {
     "text": "1. Nombre d'entrées vendues dans les cinémas en Suisse romande pour des films de toute origine – Par année et par genre",
@@ -27,11 +30,11 @@ var chart = bb.generate({
   "axis": {
     "x": {
       "type": "category"
-    }/*,
+    },
     "y": {
       "max": 4500000,
       "min": 140000
-    }*/
+    }
   },
   color: {
     pattern: [
