@@ -1,0 +1,14 @@
+body {
+    background-image: url("images/31379.jpg");
+}
+
+
+h1 {
+    font-family: "Meiryo", sans-serif, Arial, "nanumgothic", "Dotum";
+    text-align: center;
+    padding: 2em;
+}
+
+g.bb-legend-item {
+    padding-top: 30px !important;
+}
