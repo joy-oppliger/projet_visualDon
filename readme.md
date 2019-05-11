@@ -1,5 +1,7 @@
 # Provenance des données
 
+// à modifier <br>
+
 Les données que j'ai utilisées proviennent de plusieurs site web :
 
 * Pour le graphique représentant le nombres d'entrées ou films par genre et par région : https://www.bfs.admin.ch/bfs/fr/home/statistiques/culture-medias-societe-information-sport/culture/film-cinema/offre-cinematographique.assetdetail.7686828.html (j'ai extrait uniquement les données qui m'intéressaient grâce au lien "STAT-LAB" proposé sur la page). J'ai ensuite enregistré le résultat dans un fichier excel que j'ai formaté. Finalement j'ai converti le fichier excel vers un fichier JSON grâce à l'outil suivant : http://beautifytools.com/excel-to-json-converter.php. Ensuite, 
@@ -38,8 +40,8 @@ Pour la visualisation des données, j'ai utilisé la librairie billboard.js, bas
 # Objectif
 
 Je souhaite démontrer quelle place le cinéma occupe en Suisse romande. J'aimerais prouver que les fictions sont les films qui sont les plus demandés par les spectateurs et que pourtant les entreprises de cinéma en Suisse se focalisent sur la production d'émissions et de documentaires.
-// à compléter / modifier
+<br> // à compléter / modifier
 
 # Publique cible
 Les entreprises de cinéma en Suisse, et les personnes intéressées par l'industrie du cinéma en général.
-// à compléter
+<br> // à compléter
