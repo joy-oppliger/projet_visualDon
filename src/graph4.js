@@ -5,9 +5,9 @@ var chart = bb.generate({
   bindto: "#donutChart",
   data: {
     json: {
-      Suisse: data.map(({Suisse}) => Suisse),
       USA: data.map(({USA}) => USA),
       UE: data.map(({UE}) => UE),
+      Suisse: data.map(({Suisse}) => Suisse),
       Autres: data.map(({Autres_pays}) => Autres_pays)
     },
     "type": "donut",
@@ -30,10 +30,10 @@ var chart = bb.generate({
   },
   color: {
     pattern: [
-      "#ff9978",
       "#8bbaf9",
       "#df5460",
-      "#5d54aa"
+      "#5d54aa",
+      "#ff9978"
     ],
     tiles: function() {
       var pattern = d3.select(document.createElementNS(d3.namespaces.svg, "pattern"))

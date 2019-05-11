@@ -19,6 +19,7 @@
     "webpack-cli": "^3.3.0"
   },
   "dependencies": {
+    "css-scroll-snap-polyfill": "^0.1.2",
     "d3": "^5.9.2",
     "fetch": "^1.1.0",
     "fs": "0.0.1-security",

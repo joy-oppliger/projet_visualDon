@@ -13,50 +13,59 @@
   <script src="billboard.js"></script>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>!-->
-      <a class="navbar-brand" href="#">Visualisation de données</a>
-    </div>
-    <div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li><a href="#section2">Graph 1</a></li>
-          <li><a href="#section3">Graph 2</a></li>
-          <li><a href="#section41">Graph 3</a></li>
-          <li><a href="#section42">Graph 4</a></li>
-        </ul>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Visualisation de données</a>
+      </div>
+      <div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#section2">Graph 1</a></li>
+            <li><a href="#section3">Graph 2</a></li>
+            <li><a href="#section4">Graph 3</a></li>
+            <li><a href="#section5">Graph 4</a></li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
-<div id="section1" class="container-fluid">
-  <h1>La place du cinéma en Suisse</h1>
-  <!--<h1 class="next"><button class="icomoon"><a href="#section2"></a></button></h1>!-->
-</div>
-<div id="section2" class="container-fluid">
-  <h1>Nombre d'entrées vendues dans les cinémas en Suisse</h1>
-  <div id="bubbleChart"></div>
-</div>
-<div id="section3" class="container-fluid">
-  <h1>Section 3</h1>
-</div>
-<div id="section41" class="container-fluid">
-  <h1>Les 50 plus grands succès du cinéma suisse</h1>
-  <div id="scatterChart"></div>
-</div>
-<div id="section42" class="container-fluid">
-  <h1>Parts de marché par pays de production</h1>
-  <div id="donutChart"></div>
-</div>
-<script src="bundle.js"></script>
+  <div class="main"></div>
+    <div id="section1" class="container-fluid child">
+      <h1>La place du cinéma en Suisse</h1>
+      <!--<h1 class="next"><button class="icomoon"><a href="#section2"></a></button></h1>!-->
+    </div>
+    <div id="section2" class="container-fluid child">
+      <h1>Demande cinématographique selon la région linguistique en 2018</h1>
+      <button class="filter btn btn-primary active" id="btn-entry" value="entrées">entrées</button>
+      <button class="filter btn btn-primary" id="btn-movie" value="films">films</button>
+      <br>
+      <select class="select-list" name="select" id="select">
+          <option value="suisse">Suisse</option>
+      </select>
+      <div id="pieChart"></div>
+    </div>
+    <div id="section3" class="container-fluid child">
+      <h1>Les 50 plus grands succès du cinéma suisse</h1>
+      <div id="scatterChart"></div>
+    </div>
+    <div id="section4" class="container-fluid child">
+      <h1>texte</h1>
+
+    </div>
+    <div id="section5" class="container-fluid child">
+      <h1>Parts de marché par pays de production</h1>
+      <div id="donutChart"></div>
+    </div>
+  </div>
+
+  <!--<script src="jquery.onepage-scroll.js"></script>-->
+  <script src="smooth-scroll/smooth-scroll.polyfills.min.js"></script>
+  <script> var scroll = new SmoothScroll('a[href*="#"]'); </script>
+
+  <script src="bundle.js"></script>
+  
 </body>
 </html>
 

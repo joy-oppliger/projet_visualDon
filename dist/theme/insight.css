@@ -10,17 +10,20 @@
 /*-- Insight Theme --*/
 /*-- Default color pattern --*/
 .bb-color-pattern {
-    background-image: url("#00c73c;#fa7171;#2ad0ff;#7294ce;#e3e448;#cc7e6e;#fb6ccf;#c98dff;#4aea99;#bbbbbb;"); }
+    background-image: url("#00c73c;#fa7171;#2ad0ff;#7294ce;#e3e448;#cc7e6e;#fb6ccf;#c98dff;#4aea99;#bbbbbb;"); 
+}
 
 /*-- Chart --*/
 .bb svg {
     font-size: 12px;
     font-family: "Meiryo", sans-serif, Arial, "nanumgothic", "Dotum";
-    line-height: 1; }
+    line-height: 1;
+}
 
 .bb path, .bb line {
     fill: none;
-    stroke: #c4c4c4; }
+    stroke: #d6b89b;
+}
 
 .bb text, .bb .bb-button {
     -webkit-user-select: none;
@@ -28,7 +31,8 @@
     -ms-user-select: none;
     user-select: none;
     fill: white;
-    font-size: 11px; }
+    font-size: 11px;
+}
 
 .bb-legend-item-title,
 .bb-xgrid-focus,
@@ -43,7 +47,7 @@
 
 .bb-axis-y text, .bb-axis-y2 text, .bb-axis-x text {
     font-size: 14px;
-    fill: #737373; }
+    fill: #d6b89b; }
 
 .bb-event-rects {
     fill-opacity: 1 !important; }

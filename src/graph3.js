@@ -1,6 +1,4 @@
-
 const succes = require('../data/graph3.json');
-
 
 var chart = bb.generate({
     bindto: "#scatterChart",
@@ -16,7 +14,7 @@ var chart = bb.generate({
     "point": {
         pattern: [
           `<g>
-              <path fill="white" transform="translate(-28, -22)" d="M41.9,27c-0.1-0.2-0.4-0.3-0.7-0.2l-1.6,0.9L39.2,28v2.2l0.4,0.2c0,0,0,0,0,0l1.6,0.9c0.1,0.1,0.2,0.1,0.3,0.1
+              <path transform="translate(-28, -22)" d="M41.9,27c-0.1-0.2-0.4-0.3-0.7-0.2l-1.6,0.9L39.2,28v2.2l0.4,0.2c0,0,0,0,0,0l1.6,0.9c0.1,0.1,0.2,0.1,0.3,0.1
               c0.3,0,0.5-0.2,0.5-0.5v-1.9l0-1.9C41.9,27.1,41.9,27.1,41.9,27z"/>
   
               <path transform="translate(-28, -22)" d="M32.5,26.3c1.3,0,2.3-1,2.3-2.3c0-1.3-1-2.3-2.3-2.3s-2.3,1-2.3,2.3C30.2,25.3,31.2,26.3,32.5,26.3z M32.5,23.1
@@ -31,7 +29,11 @@ var chart = bb.generate({
         ]
     },
     "size": {
-        "height": 550
+        "height": 550,
+        "width": 1400
+    },
+    "padding": {
+        "left": 250
     },
     "axis": {
         "y": {
@@ -45,8 +47,8 @@ var chart = bb.generate({
             }
         },
         "x": {
-            "min": 1990,
-            "max": 2017,
+            "min": 1989.5,
+            "max": 2017.5,
             "tick": {
                 "multiline": true,
                 "outer": true,
