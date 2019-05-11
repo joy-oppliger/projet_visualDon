@@ -25,17 +25,21 @@ En ce qui concerne la transformation des données, j'ai converti les fichiers Ex
 Ensuite, pour chacun des fichier JSON, j'ai créé un fichier .js permettant de créer, au lancement de la commande "node nom_du_fichier", deux nouveaux fichiers JSON : un comportant les données nécessaires à l'axe des x, et un second avec les données à afficher (sans celles qui concernent l'axe des x).
 
 # Choix
-
+// à faire 
 
 # Visualisation des données
 
 Pour la visualisation des données, j'ai utilisé la librairie billboard.js, basée sur D3.
+// à compléter
 
 # Choix du type de représentation
+// à faire 
 
 # Objectif
 
 Je souhaite démontrer quelle place le cinéma occupe en Suisse romande. J'aimerais prouver que les fictions sont les films qui sont les plus demandés par les spectateurs et que pourtant les entreprises de cinéma en Suisse se focalisent sur la production d'émissions et de documentaires.
+// à compléter / modifier
 
 # Publique cible
 Les entreprises de cinéma en Suisse, et les personnes intéressées par l'industrie du cinéma en général.
+// à compléter
