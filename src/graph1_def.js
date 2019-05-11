@@ -4,50 +4,8 @@ const R = require('Ramda');
 var filter_type = "entrées";
 var filter_zone = "suisse";
 
-
-$(".filter").on('click', () => {
-  filter_type = $(event.currentTarget).val();
-  $(".filter").removeClass("active");
-  $(event.currentTarget).addClass("active");
-
-  chart.unload();
-  
-  filtered_data = data.filter(d => d.type == filter_type);
-  filtered_data_2 = filtered_data.filter(d => d.zone == filter_zone);
-
-  chart.load({
-    json: {
-      fictions: filtered_data_2.map(({fictions}) => fictions),
-      animations: filtered_data_2.map(({animations}) => animations),
-      documentaires: filtered_data_2.map(({documentaires}) => documentaires)
-    }});
-});
-
-$('#select').on('change', evt => {
-  filter_zone = $("#select option:selected").val();
-  test = $("#select option:selected").val();
-  console.log(filter_zone);
-  console.log(test);
-
-  chart.unload();
-
-  // RECHERCHE LE PAYS EN FONCTION DU CODE SELECTIONNÉ
-  filtered_data = data.filter(d => d.type == filter_type);
-  filtered_data_2 = filtered_data.filter(d => d.zone == filter_zone);
-  
-
-  chart.load({
-    json: {
-      fictions: filtered_data_2.map(({fictions}) => fictions),
-      animations: filtered_data_2.map(({animations}) => animations),
-      documentaires: filtered_data_2.map(({documentaires}) => documentaires)
-    }});
-});
-
-
 let filtered_data = data.filter(d => d.type == filter_type);
 let filtered_data_2 = filtered_data.filter(d => d.zone == filter_zone);
-
 
 var chart = bb.generate({
   bindto: "#pieChart",
@@ -123,12 +81,43 @@ var chart = bb.generate({
 });
 
 
+$(".filter").on('click', () => {
+  filter_type = $(event.currentTarget).val();
+  $(".filter").removeClass("active");
+  $(event.currentTarget).addClass("active");
 
+  chart.unload();
+  
+  filtered_data = data.filter(d => d.type == filter_type);
+  filtered_data_2 = filtered_data.filter(d => d.zone == filter_zone);
+
+  chart.load({
+    json: {
+      fictions: filtered_data_2.map(({fictions}) => fictions),
+      animations: filtered_data_2.map(({animations}) => animations),
+      documentaires: filtered_data_2.map(({documentaires}) => documentaires)
+    }});
+});
+
+$('#select').on('change', evt => {
+  filter_zone = $("#select option:selected").val();
+  test = $("#select option:selected").val();
+
+  chart.unload();
+
+  filtered_data = data.filter(d => d.type == filter_type);
+  filtered_data_2 = filtered_data.filter(d => d.zone == filter_zone);
+  
+
+  chart.load({
+    json: {
+      fictions: filtered_data_2.map(({fictions}) => fictions),
+      animations: filtered_data_2.map(({animations}) => animations),
+      documentaires: filtered_data_2.map(({documentaires}) => documentaires)
+    }});
+});
 
 let zone = R.uniq(data.map(d => d.zone));
-
-console.log(zone);
-
 
 for (i=1; i<zone.length; i++) {
   let newOption = `<option value=${zone[i]}>Suisse `+zone[i]+'</option>';

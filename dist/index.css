@@ -13,8 +13,6 @@ g.bb-legend-item {
     padding-top: 30px !important;
 }
 
-
-/*
 @font-face {
     font-family: 'icomoon';
     src:  url('../fonts/icomoon.eot?e48rds');
@@ -24,7 +22,7 @@ g.bb-legend-item {
     url('../fonts/icomoon.svg?e48rds#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
-}*/
+}
 
 html,body {
     position: relative;
@@ -44,15 +42,15 @@ button {
     margin-top: 15em;
     bottom: 0;
     vertical-align: center !important;
-}
-
-.icomoon::before, .Center::before {
-    font-family: 'icomoon';
-    speak: none;
-    content: "\ea3e";
-    font-size: 3rem;
-    color: darkred;
 }*/
+
+.navbar-brand::before {
+    font-family: 'icomoon';
+    content: "\e99b";
+    margin-left: 1em;
+    font-size: 2rem;
+    color: #d5b79a;
+}
 
 
 #section1 {
@@ -72,7 +70,8 @@ button {
     align-items: center;
     height:100%;
     color: #fff;
-    background-color: #2e2927;
+    background:
+    linear-gradient(#0b090a, #2e2927);
 }
 #section3 {
     padding-top:50px;
@@ -122,6 +121,17 @@ button {
     
 }
 
-#pieChart {
+#pieChart, #barChart {
     margin-top: 3em;
+}
+
+nav {
+    color: white;
+    background-color: #080403 !important;
+    opacity: 0.7;
+    border: none !important;
+}
+
+p {
+    font-size: 1.5em;
 }

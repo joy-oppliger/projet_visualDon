@@ -16,15 +16,15 @@
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-brand" href="#">Visualisation de données</a>
+        <a class="navbar-brand" href="#"></a>
       </div>
       <div>
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav">
-            <li><a href="#section2">Graph 1</a></li>
-            <li><a href="#section3">Graph 2</a></li>
-            <li><a href="#section4">Graph 3</a></li>
-            <li><a href="#section5">Graph 4</a></li>
+            <li><a href="#section2">Demande par région</a></li>
+            <li><a href="#section3">Grands succès</a></li>
+            <li><a href="#section4">Réalisations suisses</a></li>
+            <li><a href="#section5">Parts de marché</a></li>
           </ul>
         </div>
       </div>
@@ -51,8 +51,10 @@
       <div id="scatterChart"></div>
     </div>
     <div id="section4" class="container-fluid child">
-      <h1>texte</h1>
-
+      <h1>Films réalisés en suisse de 1990 à 2017</h1>
+      <button class="sort btn btn-primary active" id="btn-longs" value="longs">Longs-métrages</button>
+      <button class="sort btn btn-primary" id="btn-shorts" value="courts">Courts-métrages</button>
+      <div id="barChart"></div>
     </div>
     <div id="section5" class="container-fluid child">
       <h1>Parts de marché par pays de production</h1>

@@ -1,46 +1,47 @@
-const entree_genre = require('../data/entrees_par_genre');
-const annees = require('../data/entrees_annees');
+const data = require('../data/graph2.json');
 
-//import "../dist/prepare_films_par_genre.js";
+var filter_duree = "longs";
 
+let filtered_data = data.filter(d => d.durée == filter_duree);
 
 var chart = bb.generate({
-  bindto: "#bubbleChart",
+  bindto: "#barChart",
   data: {
     "x": "x",
     "xFormat": "%Y",
     json: {
-      x: annees,
-      fictions: entree_genre.map(({Fiction}) => Fiction),
-      animations: entree_genre.map(({Animations}) => Animations),
-      documentaires: entree_genre.map(({Documentaires}) => Documentaires)
+      x: data.map(({année}) => année),
+      fictions: filtered_data.map(({fictions}) => fictions),
+      animations: filtered_data.map(({animations}) => animations),
+      documentaires: filtered_data.map(({documentaires}) => documentaires)
     },
-    "type": "pie",
-    //labels: true
-  },
-  bubble: {
-    maxR: 80
-  },
-  "title": {
-    "text": "1. Nombre d'entrées vendues par genre en 2018 dans les cinémas en Suisse – Films de toute origine",
-    "padding": {
-      "bottom": 30
-    }
-  },
-  "axis": {
-    "x": {
-      "type": "category"
-    },
-    "y": {
-      "max": 4500000,
-      "min": 140000
-    }
-  },
+    "type": "bar"
+  },/*
+  "tooltip": {
+    contents: ([{ index, value, }]) => {
+      const { animations, fictions, documentaires } = filtered_data[index]
+      if(filter_duree=="longs") {
+            return `<div style="background-color:#80abe8;
+            padding:20px;
+            padding-bottom: 8px !important;
+            font-family:sans-serif;
+            border-radius: 30px;">
+            <p>${value} longs-métrages`
+        } else {
+          return `<div style="background-color:#80abe8;
+          padding:20px;
+          padding-bottom: 8px !important;
+          font-family:sans-serif;
+          border-radius: 30px;">
+          <p>${value} courts-métrages`
+        }
+      }
+  },*/
   color: {
     pattern: [
-      "#00f8cf",
-      "#8bbaf9",
-      "#df5460"
+      "#5d54aa",
+      "#df5460",
+      "#ff9978"
     ],
     tiles: function() {
       var pattern = d3.select(document.createElementNS(d3.namespaces.svg, "pattern"))
@@ -53,12 +54,11 @@ var chart = bb.generate({
           .attr("fill-rule", "evenodd")
           .attr("stroke-width", 1)
           .append("g")
-          .attr("fill", "rgb(255, 127, 14)");
+          .attr("fill", "black");
 
       g.append("polygon").attr("points", "5 0 6 0 0 6 0 5");
       g.append("polygon").attr("points", "6 5 6 6 5 6");
 
-      // Should return an array of SVGPatternElement
       return [
         pattern.node()
       ];
@@ -70,4 +70,32 @@ var chart = bb.generate({
   "size": {
     "height": 500
   }
+});
+
+
+$(".sort").on('click', () => {
+  filter_duree = $(event.currentTarget).val();
+  $(".sort").removeClass("active");
+  $(event.currentTarget).addClass("active");
+
+  let lastselected = data.filter(d=> d.duree == 'longs');
+  
+  nouvelle_data = data.filter(d => d.durée == filter_duree);
+
+  let test = nouvelle_data.map(d => d.fictions);
+
+  console.log(test);
+
+  chart.load({
+    json: {
+      x: data.map(({année}) => année),
+      fictions: nouvelle_data.map(d => d.fictions),
+      animations: nouvelle_data.map(d => d.animations),
+      documentaires: nouvelle_data.map(d => d.documentaires)
+    }
+  });
+
+  chart.unload({
+    ids: lastselected
+  });
 });

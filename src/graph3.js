@@ -72,3 +72,4 @@ var chart = bb.generate({
           }
       }
 });
+

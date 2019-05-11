@@ -1,62 +1,58 @@
-{
-    "Courts_metrages": [
-        {
-            "1990": "43",
-            "2000": "61",
-            "2010": "100",
-            "2017": "93",
-            "genre": "total"
-        },
-        {
-            "1990": "16",
-            "2000": "26",
-            "2010": "39",
-            "2017": "27",
-            "genre": "fiction"
-        },
-        {
-            "1990": "27",
-            "2000": "35",
-            "2010": "61",
-            "2017": "66",
-            "genre": "documentaire"
-        },
-        {
-            "1990": "0",
-            "2000": "0",
-            "2010": "0",
-            "2017": "0",
-            "genre": "animation"
-        }
-    ],
-    "Longs_metrages": [
-        {
-            "1990": "93",
-            "2000": "144",
-            "2010": "100",
-            "2017": "148",
-            "genre": "total"
-        },
-        {
-            "1990": "24",
-            "2000": "76",
-            "2010": "60",
-            "2017": "67",
-            "genre": "fiction"
-        },
-        {
-            "1990": "62",
-            "2000": "58",
-            "2010": "19",
-            "2017": "46",
-            "genre": "documentaire"
-        },
-        {
-            "1990": "7",
-            "2000": "10",
-            "2010": "21",
-            "2017": "35",
-            "genre": "animation"
-        }
-    ]
-}
+[
+    {
+        "année": "1990",
+        "durée": "courts",
+        "animations": "0",
+        "fictions": "16",
+        "documentaires": "27"
+    },
+    {
+        "année": "2000",
+        "durée": "courts",
+        "animations": "0",
+        "fictions": "26",
+        "documentaires": "35"
+    },
+    {
+        "année": "2010",
+        "durée": "courts",
+        "animations": "0",
+        "fictions": "39",
+        "documentaires": "61"
+    },
+    {
+        "année": "2017",
+        "durée": "courts",
+        "animations": "0",
+        "fictions": "27",
+        "documentaires": "66"
+    },
+    {
+        "année": "1990",
+        "durée": "longs",
+        "animations": "7",
+        "fictions": "24",
+        "documentaires": "62"
+    },
+    {
+        "année": "2000",
+        "durée": "longs",
+        "animations": "10",
+        "fictions": "76",
+        "documentaires": "58"
+    },
+    {
+        "année": "2010",
+        "durée": "longs",
+        "animations": "21",
+        "fictions": "60",
+        "documentaires": "19"
+    },
+    {
+        "année": "2017",
+        "durée": "longs",
+        "animations": "35",
+        "fictions": "67",
+        "documentaires": "46"
+    }
+]
