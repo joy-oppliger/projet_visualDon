@@ -1,0 +1,60 @@
+{
+    "2018": [
+        {
+            "animations": "1480167",
+            "fictions": "9743761",
+            "documentaires": "516482",
+            "type": "entrées",
+            "zone": "suisse"
+        },
+        {
+            "animations": "870872",
+            "fictions": "6481248",
+            "documentaires": "356285",
+            "type": "entrées",
+            "zone": "suisse al"
+        },
+        {
+            "animations": "550774",
+            "fictions": "3028766",
+            "documentaires": "151267",
+            "type": "entrées",
+            "zone": "suisse ro"
+        },
+        {
+            "animations": "58521",
+            "fictions": "233747",
+            "documentaires": "8930",
+            "type": "entrées",
+            "zone": "suisse it"
+        },
+        {
+            "animations": "108",
+            "fictions": "1609",
+            "documentaires": "356",
+            "type": "films",
+            "zone": "suisse"
+        },
+        {
+            "animations": "74",
+            "fictions": "1233",
+            "documentaires": "295",
+            "type": "films",
+            "zone": "suisse al"
+        },
+        {
+            "animations": "63",
+            "fictions": "798",
+            "documentaires": "150",
+            "type": "films",
+            "zone": "suisse ro"
+        },
+        {
+            "animations": "23",
+            "fictions": "231",
+            "documentaires": "35",
+            "type": "films",
+            "zone": "suisse it"
+        }
+    ]
+}

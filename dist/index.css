@@ -1,6 +1,6 @@
-body {
+/*body {
     background-image: url("images/31379.jpg");
-}
+}*/
 
 
 h1 {
@@ -12,3 +12,68 @@ h1 {
 g.bb-legend-item {
     padding-top: 30px !important;
 }
+
+
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?e48rds');
+    src:  url('../fonts/icomoon.eot?e48rds#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?e48rds') format('truetype'),
+    url('../fonts/icomoon.woff?e48rds') format('woff'),
+    url('../fonts/icomoon.svg?e48rds#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+html,body {
+    position: relative;
+    height: 100%;
+}
+
+/*
+button {
+    background-color: transparent;
+    border-radius: 3em;
+    border: 2px solid darkred;
+
+}
+
+
+.next {
+    margin-top: 15em;
+    bottom: 0;
+    vertical-align: center !important;
+}
+
+.icomoon::before, .Center::before {
+    font-family: 'icomoon';
+    speak: none;
+    content: "\ea3e";
+    font-size: 3rem;
+    color: darkred;
+}*/
+
+
+#section1 {padding-top:50px;height:100%;color: #fff; background-image: url("images/cinema_1.jpg"); background-size: 1800px;}
+#section2 {padding-top:50px;height:100%;color: #fff; background-color: #2e2927;}
+#section3 {
+    padding-top:50px;
+    height:100%;
+    color: #fff;
+    /*background-image: url("images/cinema_4.jpg");*/
+    background-size: 1800px;
+    background:
+    linear-gradient(#2e2927, #0e0e1b);
+}
+#section41 {
+    padding-top:50px;
+    height:100%;
+    color: #fff;
+    /*background-color: ;*/
+    background:
+    linear-gradient(#0e0e1b, #080607);
+}
+#section42 {padding-top:50px;height:100%;color: #fff; background-image: url("images/cinema_2.jpg"); background-size: 1800px;}
+
+
+

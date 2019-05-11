@@ -1,0 +1,34 @@
+[
+	{
+		"Zone": "Suisse",
+		"Entrées_milliers": "11740.4",
+		"Suisse": "6.4",
+		"USA": "67.1",
+		"UE": "23.1",
+		"Autres_pays": "3.5"
+	},
+	{
+		"Zone": "Suisse al",
+		"Entrées_milliers": "7708.4",
+		"Suisse": "7.7",
+		"USA": "68.2",
+		"UE": "21.2",
+		"Autres_pays": "3"
+	},
+	{
+		"Zone": "Suisse ro",
+		"Entrées_milliers": "3730.8",
+		"Suisse": "3.6",
+		"USA": "63.8",
+		"UE": "28.1",
+		"Autres_pays": "4.5"
+	},
+	{
+		"Zone": "Suisse it",
+		"Entrées_milliers": "301.2",
+		"Suisse": "6.3",
+		"USA": "79.5",
+		"UE": "11.8",
+		"Autres_pays": "2.4"
+	}
+]

@@ -2,7 +2,21 @@
 
 Les données que j'ai utilisées proviennent de plusieurs site web :
 
-* Pour le premier graphique (avec le nombre d'entrées) : https://www.bfs.admin.ch/bfs/fr/home/statistiques/culture-medias-societe-information-sport/culture/film-cinema/offre-cinematographique.assetdetail.7686828.html (j'ai extrait uniquement les données qui m'intéressaient grâce au lien "STAT-LAB" proposé sur la page)
+* Pour le graphique représentant le nombres d'entrées ou films par genre et par région : https://www.bfs.admin.ch/bfs/fr/home/statistiques/culture-medias-societe-information-sport/culture/film-cinema/offre-cinematographique.assetdetail.7686828.html (j'ai extrait uniquement les données qui m'intéressaient grâce au lien "STAT-LAB" proposé sur la page). J'ai ensuite enregistré le résultat dans un fichier excel que j'ai formaté. Finalement j'ai converti le fichier excel vers un fichier JSON grâce à l'outil suivant : http://beautifytools.com/excel-to-json-converter.php. Ensuite, 
+
+
+* Pour le graphique avec le nombre de longs-métrages et courts-métrages : https://www.bfs.admin.ch/bfs/fr/home/statistiques/culture-medias-societe-information-sport/culture/film-cinema/suisse.html#820874894. J'ai saisi manuellement les données dans un fichier excel, après quoi j'ai converti le fichier excel vers un fichier JSON grâce à l'outil suivant : http://beautifytools.com/excel-to-json-converter.php. Finalement, ...
+
+
+
+
+* Pour le graphique représentant les grands succès du cinéma suisse : https://www.bfs.admin.ch/bfs/fr/home/statistiques/culture-medias-societe-information-sport/culture/film-cinema/offre-cinematographique.assetdetail.7686814.html. J'ai téléchargé le fichier excel, je l'ai formaté et j'ai supprimé les données qui ne concernent pas la prédiode 1990 à 2018. Ensuite, j'ai utilisé l'outil https://codebeautify.org/excel-to-json (l'autre outil utilisé mettait la totalité dans un objet dont la clé était le nom du feuillet, ce qui ne m'intéressait pas ici contrairement aux autres liens) pour convertir en fichier JSON. Puis,
+
+
+* Pour le graphique représentant les parts de marché : https://www.bfs.admin.ch/bfs/fr/home/statistiques/culture-medias-societe-information-sport/culture/film-cinema/suisse.html. J'ai saisi manuellement les données dans un fichier excel, après quoi j'ai converti le fichier excel vers un fichier JSON grâce à l'outil suivant : https://codebeautify.org/excel-to-json. Finalement, ...
+
+
+
 
 # Transformation des données
 
