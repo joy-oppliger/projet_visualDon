@@ -30,10 +30,10 @@ var chart = bb.generate({
     },
     "size": {
         "height": 550,
-        "width": 1400
     },
     "padding": {
-        "left": 250
+        "left": 220,
+        "right": 220
     },
     "axis": {
         "y": {

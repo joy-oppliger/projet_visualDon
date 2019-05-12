@@ -65,7 +65,9 @@ var chart = bb.generate({
     }
   },
   "padding": {
-    "bottom": 40
+    "bottom": 40,
+    "left": 220,
+    "right": 220
   },
   "size": {
     "height": 500
