@@ -4,10 +4,10 @@ Les données que j'ai utilisées proviennent toutes du site web de l'Office Féd
 
 # Transformation des données
 ## 1er graphique (dans l'ordre affiché)
-J'ai extrait uniquement les données qui m'intéressaient grâce au lien "STAT-LAB" proposé sur la page. J'ai ensuite nettoyé et ajusté le fichier de façon à être directement utilisable une fois converti en JSON. Pour la conversion, j'ai utilisé l'outil proposé par le site web http://beautifytools.com/excel-to-json-converter.php.
+J'ai extrait uniquement les données qui m'intéressaient grâce au lien "STAT-LAB" proposé sur la page. J'ai ensuite nettoyé et ajusté le fichier de façon à ce que les données soient directement utilisables une fois le fichier converti en JSON. Pour la conversion, j'ai utilisé l'outil proposé par le site web http://beautifytools.com/excel-to-json-converter.php.
 
 ## 2e graphique :
-J'ai téléchargé le fichier Excel, je l'ai nettoyé et je n'ai conservé que les données qui concerne la prédiode 1990 à 2018. Ensuite, j'ai recherché sur Google les titres français des films et les ai remplacés dans le fichier Excel. Je trouvais cela plus pertinent de faire ainsi car il y a plus de chance que les titres évoquent quelque chose aux visiteurs, ma page étant destinée à des francophones. Après cela, j'ai converti le fichier en JSON, avec l'outil précédemment cité.
+J'ai téléchargé le fichier Excel, je l'ai nettoyé et je n'ai conservé que les données qui concernent la prédiode 1990 à 2018. Ensuite, j'ai recherché sur Google les titres français des films et les ai remplacés dans le fichier Excel. Je trouvais cela plus pertinent de faire ainsi car il y a plus de chance que les titres évoquent quelque chose aux visiteurs de ma page, celle-ci étant destinée à des francophones. Après cela, j'ai converti le fichier en JSON, avec l'outil précédemment cité.
 
 ## 3e et 4e graphiques : 
 J'ai saisi manuellement les données qui m'intéressaient dans des fichiers Excel séparés, j'ai ensuite utilisé le même outil que pour les autres fichiers pour la conversion en JSON.
@@ -18,15 +18,15 @@ J'ai saisi manuellement les données qui m'intéressaient dans des fichiers Exce
 
 
 # Visualisation des données
-Pour la visualisation des données, j'ai utilisé la librairie billboard.js, basée sur D3. Cette librairie répondait bien à mes besoins et aux objectifs que je m'étais fixée, tant en ce qui concerne les interactions que dans la présentation des informations.
+Pour la visualisation des données, j'ai utilisé la librairie billboard.js, basée sur D3. Cette librairie répondait bien à mes besoins et aux objectifs que je m'étais fixés, tant en ce qui concerne les interactions que dans la présentation des informations.
 
 
 # Choix du type de représentation
 ## Graphique en diagramme circulaire
-J'ai choisi d'utiliser ce type de graphique pour représenter la demande cinématographique selon la région linguistique en 2018. Étant donné qu'il n'y avait pas de grande évolution dans le temps, j'ai choisi de ne retenir que les données pour l'année 2018. Toutefois, j'ai ajouté des boutons pour visualiser le nombre d'entrées vendues et le nombre de films projetés dans les cinémas, ainsi qu'une liste déroulante pour pouvoir sélectionner la région linguistique afin de pouvoir faire des comparaisons.
+J'ai choisi d'utiliser ce type de graphique pour représenter la demande cinématographique selon la région linguistique en 2018. Étant donné qu'il n'y avait pas de grande évolution dans le temps, j'ai choisi de ne retenir que les données pour l'année 2018. Toutefois, j'ai ajouté des boutons pour visualiser le nombre d'entrées vendues et le nombre de films projetés dans les cinémas, ainsi qu'une liste déroulante pour pouvoir sélectionner la région linguistique afin de pouvoir faire des comparaisons. Les parts sont indiquées en pourcent, mais au hover de la souris une étiquette apparaît avec le nombre exact pour chaque catégorie.
 
 ## Graphique en nuage de points
-J'ai choisi de représenter les grands succès du cinéma suisse grâce à un nuage de points car c'est celui qui se prêtait le mieux pour visualiser ces données. Je trouvais intéressant de conserver les données temporelles et le nombre d'entrées vendues. Pour les "points", j'ai choisi d'ajouter un svg représentant une caméra professionnelle. Des informations apparaissent lorsque le visiteur place sa souris sur un "point" en particulier, telles que le titre du film et son type, le nom du réalisateur avec l'année de réalisation ainsi que le nombre exact d'entrées vendues.
+J'ai choisi de représenter les grands succès du cinéma suisse grâce à un nuage de points car c'est le type de graphique qui se prêtait le mieux pour visualiser ces données. Je trouvais intéressant de conserver les données temporelles et le nombre d'entrées vendues. Pour les "points", j'ai choisi d'ajouter un svg représentant une caméra professionnelle. Des informations apparaissent lorsque le visiteur place sa souris sur un "point" en particulier, telles que le titre du film et son type, le nom du réalisateur avec l'année de réalisation ainsi que le nombre exact d'entrées vendues.
 
 ## Graphique en barres
 Pour les réalisations suisses, j'ai choisi le graphique en barre car je voulais représenter des séries de données et leur évolution dans le temps. J'ai choisi de séparer les longs-métrages et les courts-métrages et d'ajouter des boutons pour que l'on puisse comparer leurs données respectives.
@@ -36,7 +36,7 @@ J'ai utilisé ce type de graphique pour les dernières données, ceci car je sou
 
 
 # Objectif
-Je souhaite montrer quelle place le cinéma occupe en Suisse et quel est le type de films le plus demandés, à savoir les fictions. Je souhaite aussi montrer quelle part du marché est détenue par des productions suisses et les films suisses qui ont rencontré un grand succès.
+Je souhaite montrer quelle place le cinéma occupe en Suisse et quel est le type de films le plus demandé, à savoir les fictions. Je souhaite aussi montrer quelle part du marché est détenue par des productions suisses et les films suisses qui ont rencontré un grand succès.
 
 
 # Publique cible
