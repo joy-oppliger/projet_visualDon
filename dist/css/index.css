@@ -1,0 +1,114 @@
+h1 {
+    font-family: "Meiryo", sans-serif, Arial, "nanumgothic", "Dotum";
+    text-align: center;
+    padding: 2em;
+}
+
+g.bb-legend-item {
+    padding-top: 30px !important;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../font/icomoon.eot?e48rds');
+    src:  url('../font/icomoon.eot?e48rds#iefix') format('embedded-opentype'),
+    url('../font/icomoon.ttf?e48rds') format('truetype'),
+    url('../font/icomoon.woff?e48rds') format('woff'),
+    url('../font/icomoon.svg?e48rds#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,body {
+    position: relative;
+    height: 100%;
+}
+
+.navbar-brand::before {
+    font-family: 'icomoon';
+    content: "\e99b";
+    margin-left: 1em;
+    font-size: 2rem;
+    color: #d5b79a;
+}
+
+#section1 {
+    padding-top:50px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    height:100%;
+    color: #fff;
+    background-image: url("../img/cinema_1.jpg");
+    background-size: 1800px;
+}
+
+#section2 {
+    padding-top:50px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    height:100%;
+    color: #fff;
+    background:
+    linear-gradient(#0b090a, #2e2927);
+}
+
+#section3 {
+    padding-top:50px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    height:100%;
+    color: #fff;
+    background-size: 1800px;
+    background:
+    linear-gradient(#2e2927, #0e0e1b);
+}
+
+#section4 {
+    padding-top:50px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    height:100%;
+    color: #fff;
+    background:
+    linear-gradient(#0e0e1b, #080607);
+}
+
+#section5 {
+    padding-top:50px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    height:100%;
+    color: #fff;
+    background-image: url("../img/cinema_2.jpg");
+    background-size: 1800px;
+}
+  
+.btn-primary, .select-list {
+    background-color: #554b48 !important;
+    border: none !important;
+}
+
+.select-list {
+    margin-top: 2em;
+}
+
+.active {
+    background-color: #d6b89b !important;
+    
+}
+
+#pieChart, #barChart {
+    margin-top: 3em;
+}
+
+nav {
+    color: white;
+    background-color: #080403 !important;
+    opacity: 0.7;
+    border: none !important;
+}

@@ -5,12 +5,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="theme/insight.css">
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="css/insight.css">
+  <link rel="stylesheet" href="css/index.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <script src="https://d3js.org/d3.v5.min.js"></script>
-  <script src="billboard.js"></script>
+  <script src="js/billboard.js"></script>
+  <script src="js/smooth-scroll.polyfills.min.js"></script>
+  <script> var scroll = new SmoothScroll('a[href*="#"]'); </script>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
   <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -30,11 +32,9 @@
       </div>
     </div>
   </nav>
-
   <div class="main"></div>
     <div id="section1" class="container-fluid child">
       <h1>La place du cinéma en Suisse</h1>
-      <!--<h1 class="next"><button class="icomoon"><a href="#section2"></a></button></h1>!-->
     </div>
     <div id="section2" class="container-fluid child">
       <h1>Demande cinématographique selon la région linguistique en 2018</h1>
@@ -47,27 +47,21 @@
       <div id="pieChart"></div>
     </div>
     <div id="section3" class="container-fluid child">
-      <h1>Les 50 plus grands succès du cinéma suisse</h1>
+      <h1>Les 50 plus grands succès du cinéma suisse de 1990 à 2017</h1>
       <div id="scatterChart"></div>
     </div>
     <div id="section4" class="container-fluid child">
-      <h1>Films réalisés en suisse de 1990 à 2017</h1>
+      <h1>Films réalisés en Suisse des années 90 jusqu'en 2017</h1>
       <button class="sort btn btn-primary active" id="btn-longs" value="longs">Longs-métrages</button>
       <button class="sort btn btn-primary" id="btn-shorts" value="courts">Courts-métrages</button>
       <div id="barChart"></div>
     </div>
     <div id="section5" class="container-fluid child">
-      <h1>Parts de marché par pays de production</h1>
+      <h1>Parts de marché par pays de production en 2018</h1>
       <div id="donutChart"></div>
     </div>
   </div>
-
-  <!--<script src="jquery.onepage-scroll.js"></script>-->
-  <script src="smooth-scroll/smooth-scroll.polyfills.min.js"></script>
-  <script> var scroll = new SmoothScroll('a[href*="#"]'); </script>
-
   <script src="bundle.js"></script>
-  
 </body>
 </html>
 

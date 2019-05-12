@@ -1,58 +1,352 @@
 [
     {
-        "année": "1990",
-        "durée": "courts",
-        "animations": "0",
-        "fictions": "16",
-        "documentaires": "27"
+        "titre": "Voyage vers l'espoir",
+        "realisateur": "Xavier Koller",
+        "type": "Fiction",
+        "annee": "1990",
+        "entrees": "112287"
     },
     {
-        "année": "2000",
-        "durée": "courts",
-        "animations": "0",
-        "fictions": "26",
-        "documentaires": "35"
+        "titre": "Der Berg",
+        "realisateur": "Markus Imhoof",
+        "type": "Fiction",
+        "annee": "1990",
+        "entrees": "61826"
     },
     {
-        "année": "2010",
-        "durée": "courts",
-        "animations": "0",
-        "fictions": "39",
-        "documentaires": "61"
+        "titre": "Le Congrès des pingouins",
+        "realisateur": "Hans-Ulrich Schlumpf",
+        "type": "Documentaire",
+        "annee": "1993",
+        "entrees": "126112"
     },
     {
-        "année": "2017",
-        "durée": "courts",
-        "animations": "0",
-        "fictions": "27",
-        "documentaires": "66"
+        "titre": "Silence brisé",
+        "realisateur": "Wolfgang Panzer",
+        "type": "Fiction",
+        "annee": "1995",
+        "entrees": "83256"
     },
     {
-        "année": "1990",
-        "durée": "longs",
-        "animations": "7",
-        "fictions": "24",
-        "documentaires": "62"
+        "titre": "Katzendiebe",
+        "realisateur": "Markus Imboden",
+        "type": "Fiction",
+        "annee": "1996",
+        "entrees": "109520"
     },
     {
-        "année": "2000",
-        "durée": "longs",
-        "animations": "10",
-        "fictions": "76",
-        "documentaires": "58"
+        "titre": "L'art de guérir",
+        "realisateur": "Franz Reichle",
+        "type": "Documentaire",
+        "annee": "1997",
+        "entrees": "104509"
     },
     {
-        "année": "2010",
-        "durée": "longs",
-        "animations": "21",
-        "fictions": "60",
-        "documentaires": "19"
+        "titre": "Pleine lune",
+        "realisateur": "Fredi M. Murer",
+        "type": "Fiction",
+        "annee": "1998",
+        "entrees": "72758"
     },
     {
-        "année": "2017",
-        "durée": "longs",
-        "animations": "35",
-        "fictions": "67",
-        "documentaires": "46"
+        "titre": "Beresina",
+        "realisateur": "Daniel Schmid",
+        "type": "Fiction",
+        "annee": "1999",
+        "entrees": "119924"
+    },
+    {
+        "titre": "Komiker",
+        "realisateur": "Markus Imboden",
+        "type": "Fiction",
+        "annee": "2000",
+        "entrees": "157776"
+    },
+    {
+        "titre": "Azzurro",
+        "realisateur": "Denis Rabaglia",
+        "type": "Fiction",
+        "annee": "2000",
+        "entrees": "97684"
+    },
+    {
+        "titre": "Heidi",
+        "realisateur": "Markus Imboden",
+        "type": "Fiction",
+        "annee": "2001",
+        "entrees": "82283"
+    },
+    {
+        "titre": "Das Fähnlein der sieben Aufrechten",
+        "realisateur": "Simon Aeby",
+        "type": "Fiction",
+        "annee": "2001",
+        "entrees": "60489"
+    },
+    {
+        "titre": "Micmac à la Havane",
+        "realisateur": "Sabine Boss",
+        "type": "Fiction",
+        "annee": "2002",
+        "entrees": "313617"
+    },
+    {
+        "titre": "Pourquoi êtes-vous si tristes?",
+        "realisateur": "Friedrich Kappeler",
+        "type": "Documentaire",
+        "annee": "2002",
+        "entrees": "146137"
+    },
+    {
+        "titre": "À vos marques, prêts, Charlie !",
+        "realisateur": "Mike Eschmann",
+        "type": "Fiction",
+        "annee": "2003",
+        "entrees": "560523"
+    },
+    {
+        "titre": "Mais im Bundeshuus : Le Génie helvétique",
+        "realisateur": "Jean-Stéphane Bron",
+        "type": "Documentaire",
+        "annee": "2003",
+        "entrees": "105083"
+    },
+    {
+        "titre": "Elisabeth Kubler-Ross",
+        "realisateur": "Stefan Haupt",
+        "type": "Documentaire",
+        "annee": "2003",
+        "entrees": "67518"
+    },
+    {
+        "titre": "Sternenberg",
+        "realisateur": "Christoph Schaub",
+        "type": "Fiction",
+        "annee": "2004",
+        "entrees": "124839"
+    },
+    {
+        "titre": "The Ring Thing",
+        "realisateur": "Marc Schippert",
+        "type": "Fiction",
+        "annee": "2004",
+        "entrees": "67637"
+    },
+    {
+        "titre": "Je m'appelle Eugen",
+        "realisateur": "Michael Steiner",
+        "type": "Fiction",
+        "annee": "2005",
+        "entrees": "580183"
+    },
+    {
+        "titre": "Grounding - les derniers jours de Swissair",
+        "realisateur": "Michael Steiner, Tobias Fueter",
+        "type": "Fiction",
+        "annee": "2005",
+        "entrees": "377710"
+    },
+    {
+        "titre": "Snow White",
+        "realisateur": "Samir",
+        "type": "Fiction",
+        "annee": "2005",
+        "entrees": "86627"
+    },
+    {
+        "titre": "Les mamies ne font pas dans la dentelle",
+        "realisateur": "Bettina Oberli",
+        "type": "Fiction",
+        "annee": "2006",
+        "entrees": "596220"
+    },
+    {
+        "titre": "VITUS",
+        "realisateur": "Fredi M. Murer",
+        "type": "Fiction",
+        "annee": "2006",
+        "entrees": "271230"
+    },
+    {
+        "titre": "Handyman",
+        "realisateur": "Jürg Ebe",
+        "type": "Fiction",
+        "annee": "2006",
+        "entrees": "207490"
+    },
+    {
+        "titre": "Jeune Homme",
+        "realisateur": "Christoph Schaub",
+        "type": "Fiction",
+        "annee": "2006",
+        "entrees": "100433"
+    },
+    {
+        "titre": "Das Fräulein",
+        "realisateur": "Andrea Staka",
+        "type": "Fiction",
+        "annee": "2006",
+        "entrees": "68340"
+    },
+    {
+        "titre": "Alpine Saga",
+        "realisateur": "Erich Langjahr",
+        "type": "Documentaire",
+        "annee": "2006",
+        "entrees": "63829"
+    },
+    {
+        "titre": "Breakout",
+        "realisateur": "Mike Eschmann",
+        "type": "Fiction",
+        "annee": "2007",
+        "entrees": "65293"
+    },
+    {
+        "titre": "La Disparition de Julia",
+        "realisateur": "Christoph Schaub",
+        "type": "Fiction",
+        "annee": "2009",
+        "entrees": "195569"
+    },
+    {
+        "titre": "Die Standesbeamtin",
+        "realisateur": "Micha Lewinsky",
+        "type": "Fiction",
+        "annee": "2009",
+        "entrees": "78365"
+    },
+    {
+        "titre": "Sennentuntschi",
+        "realisateur": "Michael Steiner",
+        "type": "Fiction",
+        "annee": "2010",
+        "entrees": "143444"
+    },
+    {
+        "titre": "La Petite Chambre",
+        "realisateur": "Stéphanie Chuat, Véronique Reymond",
+        "type": "Fiction",
+        "annee": "2010",
+        "entrees": "78761"
+    },
+    {
+        "titre": "L'Enfance volée",
+        "realisateur": "Markus Imboden",
+        "type": "Fiction",
+        "annee": "2011",
+        "entrees": "250046"
+    },
+    {
+        "titre": "Les enfants de la montagne",
+        "realisateur": "Alice Schmid",
+        "type": "Documentaire",
+        "annee": "2011",
+        "entrees": "77581"
+    },
+    {
+        "titre": "Des abeilles et des hommes",
+        "realisateur": "Markus Imhoof",
+        "type": "Documentaire",
+        "annee": "2012",
+        "entrees": "254827"
+    },
+    {
+        "titre": "Hiver nomade",
+        "realisateur": "Manuel von Stürler",
+        "type": "Documentaire",
+        "annee": "2012",
+        "entrees": "69923"
+    },
+    {
+        "titre": "Paul Grüninger, le juste",
+        "realisateur": "Alain Gsponer",
+        "type": "Fiction",
+        "annee": "2012",
+        "entrees": "64164"
+    },
+    {
+        "titre": "L'Enfant d'en haut",
+        "realisateur": "Ursula Meier",
+        "type": "Fiction",
+        "annee": "2012",
+        "entrees": "61130"
+    },
+    {
+        "titre": "Achtung, fertig, WK!",
+        "realisateur": "Oliver Rihs",
+        "type": "Fiction",
+        "annee": "2013",
+        "entrees": "177051"
+    },
+    {
+        "titre": "Der Goalie bin ig",
+        "realisateur": "Sabine Boss",
+        "type": "Fiction",
+        "annee": "2013",
+        "entrees": "139432"
+    },
+    {
+        "titre": "Une cloche pour Ursli",
+        "realisateur": "Xavier Koller",
+        "type": "Fiction",
+        "annee": "2014",
+        "entrees": "454850"
+    },
+    {
+        "titre": "Usfahrt Oerlike",
+        "realisateur": "Paul Riniker",
+        "type": "Fiction",
+        "annee": "2014",
+        "entrees": "81633"
+    },
+    {
+        "titre": "Der grosse Sommer",
+        "realisateur": "Stefan Jäger",
+        "type": "Fiction",
+        "annee": "2015",
+        "entrees": "79208"
+    },
+    {
+        "titre": "Giovanni Segantini: Magie des Lichts",
+        "realisateur": "Christian Labhart",
+        "type": "Documentaire",
+        "annee": "2015",
+        "entrees": "72449"
+    },
+    {
+        "titre": "Les Conquérantes",
+        "realisateur": "Petra Volpe",
+        "type": "Fiction",
+        "annee": "2016",
+        "entrees": "355774"
+    },
+    {
+        "titre": "Ma vie de courgette",
+        "realisateur": "Barras Claude",
+        "type": "Animation",
+        "annee": "2016",
+        "entrees": "178299"
+    },
+    {
+        "titre": "Le merveilleux voyage de Wolkenbruch",
+        "realisateur": "Michael Steiner",
+        "type": "Fiction",
+        "annee": "2017",
+        "entrees": "240817"
+    },
+    {
+        "titre": "Papa Moll",
+        "realisateur": "Manuel Flurin Hendry",
+        "type": "Fiction",
+        "annee": "2017",
+        "entrees": "143168"
+    },
+    {
+        "titre": "Une dernière touche",
+        "realisateur": "Rolf Lyssy",
+        "type": "Fiction",
+        "annee": "2017",
+        "entrees": "118668"
     }
 ]

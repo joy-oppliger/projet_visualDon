@@ -10,14 +10,7 @@ var chart = bb.generate({
       Suisse: data.map(({Suisse}) => Suisse),
       Autres: data.map(({Autres_pays}) => Autres_pays)
     },
-    "type": "donut",
-    //labels: true
-  },
-  bubble: {
-    maxR: 80
-  },
-  legend: {
-      color: "blue"
+    "type": "donut"
   },
   "axis": {
     "x": {
@@ -51,7 +44,6 @@ var chart = bb.generate({
       g.append("polygon").attr("points", "5 0 6 0 0 6 0 5");
       g.append("polygon").attr("points", "6 5 6 6 5 6");
 
-      // Should return an array of SVGPatternElement
       return [
         pattern.node()
       ];
