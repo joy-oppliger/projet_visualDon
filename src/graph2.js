@@ -67,7 +67,7 @@ var chart = bb.generate({
              padding-bottom: 8px !important;
              font-family:sans-serif;
              border-radius: 30px;">
-             <p>${Math.round(value/1000)}K entrées ont été vendues <br> pour le film <b>"${titre}"</b><br>
+             <p>${value} entrées ont été vendues <br> pour le film <b>"${titre}"</b><br>
              de type <b>${type}</b>, réalisé par <br> ${realisateur} en <b>${annee}</b></p>`
           }
       }
