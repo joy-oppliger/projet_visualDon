@@ -24,7 +24,7 @@
     "fetch": "^1.1.0",
     "fs": "0.0.1-security",
     "leaflet": "^1.4.0",
-    "node-fetch": "^2.5.0",
+    "node-fetch": "^2.6.1",
     "ramda": "^0.26.1"
   }
 }
